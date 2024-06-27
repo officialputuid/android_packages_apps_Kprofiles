@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 CannedShroud
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+     <string name="kprofiles_title">KProfiles</string>
+     <string name="kprofiles_summary">Mengelola profil Kernelspace untuk mencapai keseimbangan dalam hal cadangan baterai dan kinerja</string>
+     <string name="kprofiles_auto_title">Gunakan Auto KProfiles</string>
+     <string name="kprofiles_auto_summary">Secara otomatis beralih ke mode baterai saat layar perangkat mati dan kembali ke profil default saat layar menyala</string>
+     <string name="kprofiles_modes_title">Mode KProfiles</string>
+     <string name="kprofiles_modes_none">Tidak Ada</string>
+     <string name="kprofiles_modes_battery">Baterai</string>
+     <string name="kprofiles_modes_balanced">Seimbang</string>
+     <string name="kprofiles_modes_performance">Kinerja</string>
+     <string name="kprofiles_not_supported">KProfiles saat ini tidak didukung oleh kernel</string>
+     <string name="kprofiles_modes_description" translatable="false"><xliff:g id="description">%s</xliff:g></string>
+     <string name="kprofiles_modes_none_description">Mengatur dan mengelola aktivitas dalam kernel dengan cara berorientasi pada profil untuk mencapai keseimbangan dalam hal cadangan baterai dan kinerja sesuai</string>
+     <string name="kprofiles_modes_battery_description">Mode Baterai:\nLewati semua peningkatan ruang pengguna dan/atau dalam kernel, mengurangi frekuensi skala GPU</string>
+     <string name="kprofiles_modes_balanced_description">Mode Seimbang:\nMenyeimbangkan antara mode baterai dan kinerja</string>
+     <string name="kprofiles_modes_performance_description">Mode Kinerja:\nMaksimalkan semua peningkatan, meningkatkan frekuensi skala GPU ke maksimum</string>
+
+</resources>
