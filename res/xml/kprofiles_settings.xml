@@ -12,27 +12,26 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<PreferenceScreen
-     xmlns:android="http://schemas.android.com/apk/res/android"
-     android:title="@string/kprofiles_title">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/kprofiles_title">
 
-     <SwitchPreferenceCompat
-          android:key="kprofiles_auto"
-          android:defaultValue="false"
-          android:title="@string/kprofiles_auto_title"
-          android:summary="@string/kprofiles_auto_summary" />
+    <SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="kprofiles_auto"
+        android:summary="@string/kprofiles_auto_summary"
+        android:title="@string/kprofiles_auto_title" />
 
-     <ListPreference
-          android:key="kprofiles_modes"
-          android:entries="@array/kprofiles_modes_entries"
-          android:entryValues="@array/kprofiles_modes_values"
-          android:defaultValue="@integer/kprofiles_modes_default"
-          android:title="@string/kprofiles_modes_title" 
-          android:summary="%s" />
+    <ListPreference
+        android:defaultValue="@integer/kprofiles_modes_default"
+        android:entries="@array/kprofiles_modes_entries"
+        android:entryValues="@array/kprofiles_modes_values"
+        android:key="kprofiles_modes"
+        android:summary="%s"
+        android:title="@string/kprofiles_modes_title" />
 
-     <com.android.settingslib.widget.FooterPreference
-          android:key="pref_kprofiles_modes_info"
-          android:title="%s"
-          android:selectable="false" />
+    <com.android.settingslib.widget.FooterPreference
+        android:key="pref_kprofiles_modes_info"
+        android:selectable="false"
+        android:title="%s" />
 
 </PreferenceScreen>

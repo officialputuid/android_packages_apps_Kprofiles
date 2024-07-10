@@ -14,9 +14,9 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.kprofiles"
+    android:sharedUserId="android.uid.system"
     android:versionCode="1"
-    android:versionName="1.0"
-    android:sharedUserId="android.uid.system">
+    android:versionName="1.0">
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.GET_TASKS" />
@@ -45,7 +45,7 @@
             android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
-                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES"/>
+                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES" />
             </intent-filter>
 
             <meta-data
@@ -63,7 +63,7 @@
             android:label="@string/kprofiles_title"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
-                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
             </intent-filter>
             <meta-data android:name="android.service.quicksettings.TOGGLEABLE_TILE"
                 android:value="true" />
